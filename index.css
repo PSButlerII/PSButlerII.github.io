@@ -1,3 +1,8 @@
+.main-header {
+    background-image: url("Screenshot 2021-06-02 133521.jpg");
+    background-size: fill;
+}
+
 h1 {
     background-color: green;
     color: blue;
