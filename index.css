@@ -1,15 +1,26 @@
-.main-header {
-    background-image: url("Screenshot 2021-06-02 133521.jpg");
-    background-size: fill;
-}
-
-h1 {
-    background-color: green;
-    color: blue;
-}
-
-img {
-    border-radius: 40px;
-    max-width: 100%;
-    height: auto;
-}
+    .whole-page {
+        background-color: rgba(29, 29, 136, 0.6);
+        background-image: url("topdowncomputerview.jpg");
+        background-blend-mode: multiply;
+        background-size: cover;
+    }
+    
+    .main-header {
+        color: rgb(240, 247, 241);
+    }
+    
+    .section-one {
+        color: rgb(240, 247, 241);
+    }
+    
+    @import url(fonts);
+    * {
+        box-sizing: border-box;
+        font-family: url(Project\fonts\NarrowRoads-Regular.ttf);
+    }
+    
+    img {
+        border-radius: 40px;
+        max-width: 100%;
+        height: auto;
+    }
