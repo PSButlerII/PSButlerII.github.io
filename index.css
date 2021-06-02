@@ -2,3 +2,9 @@ h1 {
     background-color: green;
     color: blue;
 }
+
+img {
+    border-radius: 40px;
+    max-width: 100%;
+    height: auto;
+}
