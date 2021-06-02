@@ -1,6 +1,6 @@
     .whole-page {
         background-color: rgba(29, 29, 136, 0.6);
-        background-image: url("topdowncomputerview.jpg");
+        background-image: url(images/topdowncomputerview.jpg);
         background-blend-mode: multiply;
         background-size: cover;
     }
@@ -16,7 +16,15 @@
     @import url(fonts);
     * {
         box-sizing: border-box;
-        font-family: url(Project\fonts\NarrowRoads-Regular.ttf);
+        font-family: url(fonts\NarrowRoads-Regular.ttf);
+    }
+    
+    .nav ul {
+        margin: 0;
+    }
+    
+    .nav li {
+        display: inline;
     }
     
     img {
