@@ -1,34 +1,67 @@
-    .whole-page {
-        background-color: rgba(29, 29, 136, 0.6);
-        background-image: url(images/topdowncomputerview.jpg);
-        background-blend-mode: multiply;
-        background-size: cover;
-    }
-    
-    .main-header {
-        color: rgb(240, 247, 241);
-    }
-    
-    .section-one {
-        color: rgb(240, 247, 241);
-    }
-    
-    @import url(fonts);
-    * {
-        box-sizing: border-box;
-        font-family: url(fonts\NarrowRoads-Regular.ttf);
-    }
-    
-    .nav ul {
-        margin: 0;
-    }
-    
-    .nav li {
-        display: inline;
-    }
-    
-    img {
-        border-radius: 40px;
-        max-width: 100%;
-        height: auto;
-    }
+section {
+    height: 400px;
+    border: solid black;
+    font-family: 'Odibee Sans', cursive;
+}
+
+.navigation {
+    height: 99vh;
+    color: white;
+    font-size: 30px;
+}
+
+footer {
+    height: 100px;
+    /* background-color: rgba(43, 41, 41, 0.925); */
+    justify-content: space-evenly;
+    display: flex;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 400px;
+    justify-content: space-around;
+}
+
+li {
+    width: 200;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+    font-weight: 800;
+}
+
+p {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.opening-text {
+    margin-left: 40px;
+}
+
+.openingtext-area {
+    margin-left: 80px;
+    flex-direction: column;
+    height: 100%;
+    display: flex;
+}
+
+.whole-page {
+    background-image: url("images/topdowncomputerview.jpg");
+    background-size: cover;
+}
+
+.logo {
+    background-color: aqua;
+}
