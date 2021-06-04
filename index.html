@@ -25,12 +25,11 @@
 <body>
     <section class="navigation">
         <nav id="top">
-
-            <div class="logo"><img src="images\Screenshotlogo1.jpg" /></div>
+            <div class="logo"><img src="images\Screenshotlogo1.png" /></div>
             <ul>
-                <li><a href="#aboutme">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#aboutme" style="text-decoration:none">About Me</a></li>
+                <li><a href="#projects" style="text-decoration:none">Projects</a></li>
+                <li><a href="#contact" style="text-decoration:none">Contact</a></li>
             </ul>
         </nav>
         <div class="openingtext-area">
@@ -41,34 +40,78 @@
                 </center>
             </div>
         </div>
-
     </section>
-
-
-    <section id="projects">
-        <div>Projects</div>
-        <a href="#top">Go to top</a>
-
-    </section>
-
-
-
-
-
 
 
     <section id="aboutme">
-        <div>About Me</div>
-        <a href="#top">Go to top</a>
+        <div class="about-section">About Me
+            <a href="#top" style="text-decoration:none">Go to top</a>
+            <!-- <img src="images/mycomputer1.jpg" width="25%" /> -->
+            <p>My name is Preston Stewart Butler II and am a developer in training.This is my first webpage and one of my first projects. I built this page with HTML and CSS. No fancy applications here; Just a code editor, a web browers and a great group
+                of students and instructors. I have been working with computers since the late 80's, and i have had an opportunity to watch and grow with computers. I love doing good work, but perfection is not what i am after,as computer languages their
+                hardware counterparts continually evolve. I create products that have the ability to change as needed. I produce solution for both software and hardware,computerized or mechanical. </p>
+        </div>
+    </section>
+    1
+    <section class="project-section">
+        <div id="projects">
+            <h2>Projects</h2><a href="#top" style="text-decoration:none">Go
+                to top</a>
+            <div class="project1"></div>
+            <div class="project2"></div>
+            <div class="project3"></div>
+            <div class="project4"></div>
+
+
+        </div>
+        <a>placeholder link</a>
     </section>
 
-    <footer id="contact">
+
+
+
+    <section id="contact">
+        <div class="contact-section">
+            <h2>Contact</h2>
+            <a href="#top">Go to top</a>
+            <form class="contact-form" action="https://formsubmit.co/preston.butler@live.com" method="POST">
+
+                <input type="text" class="input-field" placeholder="Your
+                        Name" required>
+                <input type="hidden" name="_next" value="Need to enter a
+                        value">
+                <input type="text" class="input-field" placeholder="Your
+                        Email" required>
+
+                <input type="text" class="input-field" placeholder="Subject">
+
+                <textarea type="text" class="input-field textarea-field" placeholder="Your
+                        Message" required>
+                    </textarea>
+                <button id="buttonclick" type="Button" class="button-btn" onclick="document.location='thankyou.html'">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <footer>
         <nav>
             <ul>
                 <li><img src="images\GitHub-Mark-64px.png"></li>
-                <li><img src="images\linkedin_logo_square_icon_134016.png"></li>
+                <li>
+                    <a href="https://www.linkedin.com/in/preston-butler-05766542" target="_blank"><img src="images\linkedin_logo_square_icon_134016.png"></a>
+                </li>
                 <li><img src="images\iconfinder_icon-ios7-contact_211605.png"></li>
-                <li><img src="images\dev_24012.png"></li>
+                <li>
+                    <a href="https://www.devcodecamp.com" target="_blank"><img src="images\dev_24012.png"></a>
+                </li>
             </ul>
         </nav>
     </footer>

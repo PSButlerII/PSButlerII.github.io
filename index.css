@@ -1,25 +1,21 @@
 section {
-    height: 400px;
-    border: solid black;
     font-family: 'Odibee Sans', cursive;
 }
 
 .navigation {
-    height: 99vh;
+    height: 100vh;
     color: white;
     font-size: 30px;
 }
 
 footer {
     height: 100px;
-    /* background-color: rgba(43, 41, 41, 0.925); */
     justify-content: space-evenly;
     display: flex;
 }
 
 nav {
     display: flex;
-    justify-content: space-between;
 }
 
 ul {
@@ -42,8 +38,13 @@ h1 {
 
 p {
     margin: 0;
+    word-wrap: break-all;
+    word-wrap: break-word;
+    word-wrap: pre-wrap;
     font-size: 30px;
     font-weight: 200;
+    color: honeydew;
+    background-color: rgba(177, 77, 77, 0.493);
 }
 
 .opening-text {
@@ -63,5 +64,154 @@ p {
 }
 
 .logo {
-    background-color: aqua;
+    background-color: transparent;
+}
+
+.about-section {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    color: blue;
+    border: solid black;
+}
+
+
+/*                                                                  PROJECT SECTION                                                                             */
+
+.project-section .project1,
+.project-section .project2,
+.project-section .project3,
+.project-section .project4 {
+    background-color: coral;
+    height: 300px;
+    border: solid black;
+    width: 15%;
+    float: left;
+}
+
+.project-section {
+    height: 400px;
+    border: solid black;
+    color: blue;
+    background-color: coral;
+    border: solid black;
+}
+
+.project-section .project1 {
+    margin-left: 2%;
+    margin-right: 1.5%;
+}
+
+.project-section .project2 {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.project-section .project3 {
+    margin-left: 2;
+    margin-right: 1.5%;
+}
+
+.project-section .project4 {
+    margin-left: 2;
+    margin-right: 1.5%;
+}
+
+
+/*
+
+.project-section .project3 {
+    margin-left: 2;
+    margin-right: 1.5%;
+}
+
+.project-section .project3 {
+    margin-left: 2;
+    margin-right: 1.5%;
+}
+
+.project-section .project3 {
+    margin-left: 2;
+    margin-right: 1.5%;
+}
+
+.project-section .project3 {
+    margin-left: 2;
+    margin-right: 1.5%;
+}
+
+.project-section .project3 {
+    margin-left: 2;
+    margin-right: 1.5%;
+} */
+
+
+/*                                                            CONTACT SECTION                                                             */
+
+.contact-section {
+    height: 400px;
+    border: solid black;
+    color: blue;
+}
+
+.contact-form {
+    width: 315px;
+    background-color: rgba(255, 255, 255, 0.575);
+    box-shadow: 0 0 20px 0 #999;
+    position: absolute;
+    border-radius: 10px;
+}
+
+form {
+    margin: 10px;
+}
+
+.input-field {
+    width: 300px;
+    height: 30px;
+    margin: top 10px;
+    padding-left: 10px;
+    border: 1px solid #777;
+    border-radius: 14px;
+    outline: none;
+}
+
+.textarea-field {
+    height: 128px;
+    padding: 7px;
+}
+
+#buttonclick:hover {
+    background-color: green;
+}
+
+.button-btn {
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 0px;
+    padding: 10px;
+    background-color: #47c35a;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+a:link {
+    color: rgb(73, 224, 3);
+    cursor: pointer;
+}
+
+a:visited {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+a:hover {
+    color: rgb(45, 160, 19);
+    cursor: pointer;
+}
+
+a:active {
+    color: #00ff0d;
+    cursor: pointer;
 }
