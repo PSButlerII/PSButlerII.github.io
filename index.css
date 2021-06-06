@@ -2,18 +2,31 @@ section {
     font-family: 'Odibee Sans', cursive;
 }
 
+
+/* navigation and top intoduction name and tag scetion */
+
 .navigation {
     height: 100vh;
     color: rgb(131, 125, 125);
-    font-size: 30px;
+}
+
+.first-center {
+    /* font-size: 1.5vw; */
+    align-items: inherit;
+}
+
+.logo {
+    background-color: transparent;
 }
 
 .h1-name {
     color: green;
+    /* font-size: 5vw; */
 }
 
 .h3-texttag {
     color: orangered;
+    font-size: 3vw;
 }
 
 .myimage {
@@ -21,9 +34,41 @@ section {
     float: right;
 }
 
+.opening-text {
+    margin-left: 40px;
+    /* font-size: 3vw; */
+}
+
+.openingtext-area {
+    margin-left: 500px;
+    height: 10vh;
+    display: flex;
+    align-items: right;
+}
+
+nav {
+    display: flex;
+}
+
+.navbar {
+    float: right;
+    display: inline;
+}
+
+
+/* background image */
+
+.whole-page {
+    background-image: url("images/topdowncomputerview.jpg");
+    background-size: cover;
+}
+
 #floated {
     float: inherit;
 }
+
+
+/* Specific item controls */
 
 footer {
     height: 100px;
@@ -31,19 +76,20 @@ footer {
     display: flex;
 }
 
-nav {
+nav ul {
+    line-height: 1;
     display: flex;
 }
 
-ul {
-    display: flex;
+nav ul li {
     list-style-type: none;
-    width: 400px;
-    justify-content: space-around;
+    width: 37vw;
+    font-size: 3vw;
+    /* outline: auto; */
+    float: left;
 }
 
 li {
-    width: 200;
     text-decoration: none;
 }
 
@@ -53,48 +99,46 @@ h1 {
     font-weight: 800;
 }
 
-p {
-    margin: 0;
-    word-wrap: break-all;
-    word-wrap: break-word;
-    word-wrap: pre-wrap;
-    font-size: 30px;
-    font-weight: 200;
-    color: honeydew;
-    background-color: rgba(177, 77, 77, 0.493);
-}
+
+/* AboutMe section controls */
 
 .mywords {
-    text-align: justify;
+    margin: 0;
+    /* word-wrap: break-all;
+    word-wrap: break-word;
+    word-wrap: pre-wrap; */
+    font-weight: 200;
+    font-size: 2vw;
+    color: honeydew;
+    background-color: rgba(177, 77, 77, 0.493);
+    flex-wrap: wrap;
+    justify-items: auto;
 }
 
-.opening-text {
-    margin-left: 40px;
+.aboutme-text {
+    text-align: center;
+    font-size: 2vw;
 }
 
-.openingtext-area {
-    margin-left: 80px;
-    flex-direction: column;
-    height: 100%;
-    display: flex;
-}
-
-.whole-page {
-    background-image: url("images/topdowncomputerview.jpg");
-    background-size: cover;
-}
-
-.logo {
-    background-color: transparent;
+.aboutme-linktext {
+    text-align: right;
 }
 
 .about-section {
-    height: 600px;
+    height: 30vw;
     width: fit-content;
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: row; */
     color: blue;
-    /* border: solid black; */
+    border: solid black;
+}
+
+.myimage {
+    height: 15vw;
+    width: 15vw;
+    justify-items: auto;
+    display: flex;
+    align-self: right;
 }
 
 .aboutme-text {
@@ -110,32 +154,36 @@ p {
 .project-section .project4,
 .project-section .project5 {
     background-color: coral;
-    height: 300px;
-    /* border: solid black; */
+    height: 30vh;
+    border: solid black;
     width: 15%;
     float: left;
     position: relative;
     overflow: hidden;
+    justify-items: space-evenly;
 }
 
 .project-section h1 {
     text-transform: uppercase;
     padding-top: 0px;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
     margin: 0;
     position: relative;
+    font-size: 60px;
 }
 
 .project-section {
     height: 450px;
-    border: solid black;
+    border: 1px solid black;
     color: blue;
     text-align: end;
+    margin-top: 90px;
 }
 
 .projectsection-text {
     font-weight: bold;
     font-size: 30px;
+    text-align: right;
 }
 
 .project-section .project1 {
