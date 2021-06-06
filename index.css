@@ -3,7 +3,7 @@ section {
 }
 
 
-/* navigation and top intoduction name and tag scetion */
+/*                                       navigation and top intoduction name and tag scetion */
 
 .navigation {
     height: 100vh;
@@ -12,10 +12,10 @@ section {
 
 .first-center {
     /* font-size: 1.5vw; */
-    align-items: inherit;
+    /* align-items: initial; */
 }
 
-.logo {
+logo {
     background-color: transparent;
 }
 
@@ -26,11 +26,11 @@ section {
 
 .h3-texttag {
     color: orangered;
-    font-size: 3vw;
+    font-size: 2.7vw;
 }
 
 .myimage {
-    border-radius: 8 px;
+    border-radius: 5 px;
     float: right;
 }
 
@@ -41,9 +41,9 @@ section {
 
 .openingtext-area {
     margin-left: 500px;
-    height: 10vh;
+    height: 8vh;
     display: flex;
-    align-items: right;
+    /* align-items: right; */
 }
 
 nav {
@@ -51,12 +51,24 @@ nav {
 }
 
 .navbar {
-    float: right;
+    float: left;
     display: inline;
 }
 
+nav ul {
+    display: flex;
+}
 
-/* background image */
+nav ul li {
+    list-style-type: none;
+    width: 10vw;
+    font-size: 2vw;
+    /* outline: auto; */
+    float: left;
+}
+
+
+/*                                                       background image */
 
 .whole-page {
     background-image: url("images/topdowncomputerview.jpg");
@@ -74,19 +86,6 @@ footer {
     height: 100px;
     justify-content: space-evenly;
     display: flex;
-}
-
-nav ul {
-    line-height: 1;
-    display: flex;
-}
-
-nav ul li {
-    list-style-type: none;
-    width: 37vw;
-    font-size: 3vw;
-    /* outline: auto; */
-    float: left;
 }
 
 li {
