@@ -11,8 +11,8 @@ section {
 }
 
 .first-center {
-    /* font-size: 1.5vw; */
-    /* align-items: initial; */
+    font-size: 1.5vw;
+    align-items: initial;
 }
 
 logo {
@@ -80,7 +80,7 @@ nav ul li {
 }
 
 
-/* Specific item controls */
+/*                                                       Specific item controls                                          */
 
 footer {
     height: 100px;
@@ -90,6 +90,7 @@ footer {
 
 li {
     text-decoration: none;
+    width: 200px;
 }
 
 h1 {
@@ -99,7 +100,7 @@ h1 {
 }
 
 
-/* AboutMe section controls */
+/*                                                      AboutMe section controls                                                    */
 
 .mywords {
     margin: 0;
