@@ -97,6 +97,9 @@
 
     <section class="sub-section" id="aboutme">
       <div class="information">
+        <a class="aboutme-linktext" href="#top" style="text-decoration: none"
+          >Go to top</a
+        >
         <h2 class="aboutme-text">About Me</h2>
         <p class="mywords">
           My name is Preston Stewart Butler II and am a developer graduate from
@@ -111,10 +114,6 @@
           solutions for both software and hardware, computerized or mechanical.
           I am a problem solver.
         </p>
-
-        <a class="aboutme-linktext" href="#top" style="text-decoration: none"
-          >Go to top</a
-        >
       </div>
       <div class="headshot-container">
         <img
@@ -125,10 +124,10 @@
       </div>
     </section>
     <section class="sub-section-alternative">
-      <h2 id="projects">Projects</h2>
       <a style="text-decoration: none" class="projectsection-text" href="#top"
         >Go to top</a
       >
+      <h2 id="projects">Projects</h2>
 
       <div class="project-container">
         <div class="project-card">
@@ -166,53 +165,30 @@
       <div class="contact-section">
         <h1>Contact</h1>
         <a class="contacts-text" href="#top">
-          <img src="images\arrowup.png" top of page
-        /></a>
-        <form
-          class="contact-form"
-          action="https://formsubmit.co/preston.butler@live.com"
-          method="POST"
+          <img src="src\images\arrowup.png" top of page />Go to top</a
         >
-          <input
-            type="text"
-            class="input-field"
-            placeholder="Your
-                        Name"
-            required
-          />
-          <input
-            type="hidden"
-            name="_next"
-            value="Need to enter a
-                        value"
-          />
-          <input
-            type="text"
-            class="input-field"
-            placeholder="Your
-                        Email"
-            required
-          />
-
-          <input type="text" class="input-field" placeholder="Subject" />
-
-          <textarea
-            type="text"
-            class="input-field textarea-field"
-            placeholder="Your
-                        Message"
-            required
-          >
-          </textarea>
-          <button
-            id="buttonclick"
-            type="Button"
-            class="button-btn"
-            onclick="document.location='thankyou.html'"
-          >
-            Send Message
-          </button>
-        </form>
+        <div class="container">
+  <h1>FormSubmit Demo</h1>
+  <form target="_blank" action="https://formsubmit.co/a124fbe7183fdde0a5c219a84769c728" method="POST">
+    <div class="form-group">
+      <div class="form-row">
+        <div class="col">
+          <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+        </div>
+        <div class="col">
+          <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+        </div>
+                <div class="col">
+          <input type="text" name="Subject" class="form-control" placeholder="Subjectb v" required>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+  </form>
+</div>
       </div>
     </section>
 
