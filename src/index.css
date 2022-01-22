@@ -97,7 +97,10 @@ p {
 }
 
 .socials {
-    padding-bottom: 200px;
+    justify-content: space-between;
+    width: 200px;
+    
+    margin-bottom: 200px;
 }
 
 .logo {
@@ -106,6 +109,7 @@ p {
 }
 .social {
     margin: 20px;
+    
 }
 
 .sub-section {
