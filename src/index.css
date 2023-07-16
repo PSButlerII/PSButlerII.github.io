@@ -221,3 +221,15 @@ a {
         display: none;
     }
 }
+
+.content {
+    display: none;
+}
+
+.collapsible:after {
+    content: ' ▶'; /* Unicode character for "right-pointing triangle" */
+}
+
+.collapsible.active:after {
+    content: " ▼"; /* Unicode character for "downward-pointing triangle" */
+}

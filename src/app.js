@@ -6,3 +6,21 @@ function toggleButton() {
 }
 
 hamburgerButton.addEventListener('click', toggleButton);
+
+document.addEventListener('DOMContentLoaded', function() {
+    const collapsibleElements = document.getElementsByClassName('collapsible');
+
+    for (let i = 0; i < collapsibleElements.length; i++) {
+        collapsibleElements[i].addEventListener('click', function() {
+            this.classList.toggle('active');
+            const content = this.nextElementSibling;
+            if (content.style.display !== 'block') {
+                content.style.display = 'block';
+            } else {
+                content.style.display = 'none';
+            }
+        });
+    }
+});
+
+
